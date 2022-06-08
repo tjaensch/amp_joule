@@ -36,7 +36,7 @@ If successful, the CLI output will look like this:
 
 ![Docker](screenshots/docker_run.png)
 
-- In another terminal window, run this command to make predictions:
+- In another terminal window, run this command from the root directory to make predictions:
 ```
 curl -X POST -H "Content-Type: application/json; charset=utf-8"  --data '@request.json' http://localhost:8080/predict
 ```
