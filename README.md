@@ -1,7 +1,7 @@
 # Amp Joule: ML Demo App
 
 ## Tools Used
-- Google Cloud Platform (BigQuery, AutoML Tables)
+- Google Cloud Platform (BigQuery, AutoML Tables, Cloud Storage)
 - Docker (serve the model locally)
 - Curl (HTTP-based interface to make predictions)
 - TensorFlow (exported model from AutoML Tables)
