@@ -49,3 +49,4 @@ curl -X POST -H "Content-Type: application/json; charset=utf-8"  --data '@reques
 - The model probably has too many input features (72), many of them probably don't contribute to the value of the predictions and make it more difficult to inperpret so one thing to improve it is experiment which features contribute most to predict the desired target column
 - Generally for any ML model, the more data, the better the predictions, so try to increase the training data would most likely result in a better model
 - Training/evaluation/test data should be stored in AWS S3 buckets or GCP CLoud Storage
+- To productionize this, I would create an ML pipeline that includes all the steps from data cleaning over training to making predictions in a coherent workflow, with something like https://www.kubeflow.org/ or https://aws.amazon.com/sagemaker/pipelines/ 
