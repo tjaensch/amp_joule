@@ -45,7 +45,7 @@ curl -X POST -H "Content-Type: application/json; charset=utf-8"  --data '@reques
 
 ## Improvements
 - This is just a quickly thrown together prototype to demonstrate the requested workflow including the desired features
-- I used BigQuery and AutoML Tables for rapid prototyping and because I was already familiar with using those GCP services (the resulting TensoFlow model could be deployed anywhere though)
+- I used BigQuery and AutoML Tables for rapid prototyping and because I was already familiar with using those GCP services (the resulting TensorFlow model could be deployed anywhere though)
 - The model probably has too many input features (72), many of them probably don't contribute to the value of the predictions and make it more difficult to inperpret so one thing to improve it is experiment which features contribute most to predict the desired target column
 - Generally for any ML model, the more data, the better the predictions, so try to increase the training data would most likely result in a better model
 - Training/evaluation/test data should be stored in AWS S3 buckets or GCP CLoud Storage
