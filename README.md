@@ -2,9 +2,10 @@
 
 ## Tools Used
 - Google Cloud Platform (BigQuery, AutoML Tables)
-- Docker
-- Curl
-- TensorFlow
+- Docker (serve the model locally)
+- Curl (HTTP-based interface to make predictions)
+- TensorFlow (exported model from AutoML Tables)
+- SQL (data cleansing)
 
 ## Overview
 
