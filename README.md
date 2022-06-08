@@ -27,7 +27,7 @@
 
 ## Usage
 
-- Clone repository and then CD into model folder and run this command to start the model server (this can take some time the first time around to pull the necessary Docker images):
+- Clone repository and then CD into `model` folder and run this command to start the model server (this can take some time the first time around to pull the necessary Docker images):
 ```
 docker run -v `pwd`/model-export/tbl/tf_saved_model-building_energy_benchmark:/models/default/0000001 -p 8080:8080 -it gcr.io/cloud-automl-tables-public/model_server
 ```
