@@ -1,5 +1,4 @@
-# Amp Joule
-ML demo app
+# Amp Joule: ML Demo App
 
 ## Overview
 
