@@ -1,5 +1,11 @@
 # Amp Joule: ML Demo App
 
+## Tools Used
+- Google Cloud Platform (BigQuery, AutoML Tables)
+- Docker
+- Curl
+- TensorFlow
+
 ## Overview
 
 - Downloaded https://opendata.dc.gov/datasets/DCGIS::building-energy-benchmarking/ in CSV format and assessed data table, decided to build a regression model with "ELECTRICITYUSE_GRID_KWH" as the target column (rather random choice without much SME expertise, just for demo purposes)
